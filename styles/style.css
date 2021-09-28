@@ -4,12 +4,71 @@
 	margin: 0px;
 }
 body{
-	background-image: url("../images/nikeLogoYellow.jpg");
-	background-repeat: no-repeat;
+	background: url("../images/backgroundNike.png") no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 }
 .menuContainer{
 	height: 100px;
-	background-color: transparent;
-
+	width: 100%;
+	background-color: rgba(255, 255, 255, .04);
+	backdrop-filter: blur(3px);
+	-webkit-backdrop-filter: blur(3px);
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.logoImg{
+	width: 80px;
+}
+nav{
+	display: flex;
+	align-items: center;
+	height: 100%;
+    margin:0px auto;
+    width: 90%;
+}
+.navUl{
+	width: 60%;
+	display: flex;
+	justify-content: space-around;
+}
+.navUl li{
+	list-style: none;
+}
+.bi-list{
+	fill: white;
+}
+.burgerMenu{
+	display: none;
+}
+.navUl li a{
+	font-family: 'Acme', sans-serif;
+	font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.basket{
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+}
+.bi-basket{
+    fill: white;
+}
+.totalDiv{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 10px;
+}
+.total{
+	font-size: 16px;
+	color: white;
+	padding: 0px;
+	margin: 0px;
+}
+.totalPrice{
+    font-family: 'Acme', sans-serif;
+	font-size: 18px;
+	color: white;
 }

@@ -1,0 +1,97 @@
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background: url("../images/neonBackground.jpg") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.menuContainer{
+	height: 100px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, .04);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+}
+.logoImg{
+	width: 80px;
+}
+nav{
+	display: flex;
+	align-items: center;
+	height: 100%;
+    margin:0px auto;
+    width: 90%;
+}
+.navUl{
+	width: 60%;
+	display: flex;
+	justify-content: space-around;
+}
+.navUl li{
+	list-style: none;
+}
+.bi-list{
+	fill: white;
+}
+.burgerMenu{
+	display: none;
+}
+.navUl li a{
+	transition: 0.3s;
+	font-family: 'Acme', sans-serif;
+	font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.navUl li:hover{
+	letter-spacing: 1px;
+}
+.basket{
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+}
+.bi-basket{
+    fill: white;
+}
+.totalDiv{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 10px;
+}
+.total{
+	font-size: 16px;
+	color: white;
+	padding: 0px;
+	margin: 0px;
+}
+.totalPrice{
+    font-family: 'Acme', sans-serif;
+	font-size: 18px;
+	color: white;
+}
+/*________________SECTION_HOME___________*/
+.slideContainer{
+	width: 100%;
+	background-color: rgba(0, 0, 0, .04);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+}
+.SlideShow{
+	width: 95%;
+	margin: 0px auto;
+}
+.SlideShow img{
+	width: 300px;
+	height: 300px;
+}
+.active{
+	display: flex;
+}
+.slide{
+	display: none;
+}

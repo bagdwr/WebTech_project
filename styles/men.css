@@ -12,10 +12,8 @@ body{
 	height: 100px;
 	width: 100%;
 	background-color: rgba(0, 0, 0, .04);
-	backdrop-filter: blur(3px);
+	backdrop-filter: blur(4px);
 	-webkit-backdrop-filter: blur(4px);
-	border-bottom-right-radius: 10px;
-	border-bottom-left-radius: 10px;
 }
 .logoImg{
 	width: 80px;
@@ -42,10 +40,14 @@ nav{
 	display: none;
 }
 .navUl li a{
+	transition: 0.3s;
 	font-family: 'Acme', sans-serif;
 	font-size: 20px;
     text-decoration: none;
     color: white;
+}
+.navUl li:hover{
+	letter-spacing: 1px;
 }
 .basket{
 	display: flex;
@@ -72,5 +74,29 @@ nav{
 	font-size: 18px;
 	color: white;
 }
-/*________________SECTION_HOME___________*/
+/*_______itemsContainer_________*/
+.itemsContainer{
+	width:100%;
+	margin-top: 500px;
+}
+.items{
+	width: 95%;
+	margin: 0px auto;
+}
+.itemsImg{
+	height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 

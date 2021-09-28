@@ -1,7 +1,15 @@
 *{
 	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
 }
 body{
-	background-image: url("images/nikeLogoWall.jpg");
+	background-image: url("../images/nikeLogoYellow.jpg");
 	background-repeat: no-repeat;
+	background-size: cover;
+}
+.menuContainer{
+	height: 100px;
+	background-color: transparent;
+
 }

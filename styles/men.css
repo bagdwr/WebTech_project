@@ -9,6 +9,9 @@ body{
 	background-attachment: fixed;
 }
 .menuContainer{
+	position: fixed;
+	top: 0;
+	z-index: 2;
 	height: 100px;
 	width: 100%;
 	background-color: rgba(0, 0, 0, .04);
@@ -77,17 +80,119 @@ nav{
 /*_______itemsContainer_________*/
 .itemsContainer{
 	width:100%;
-	margin-top: 500px;
+	font-size: 25px;
+	color: white;
+	margin-top: 150px;
+}
+.h1Container{
+	width: 90%;
+	margin: 0px auto;
+	margin-bottom: 60px;
+}
+.menH1{
+	text-align: center;
 }
 .items{
-	width: 95%;
+	width: 90%;
 	margin: 0px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	margin-bottom: 40px;
+	background-color: rgba(0, 0, 0, .04);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+	padding: 0px 40px;
+	width: 300px;
+	height: 360px;
+	border-radius: 20px;
+}
+.shoesInfo{
+	transition: 1s;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 200px;
+}
+.price{
+	font-family: 'Acme', sans-serif;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 21px;
+    color: rgb(255, 226, 77);
+}
+.shoesNameP{
+	font-family: 'Acme', sans-serif;
+	font-size: 19px;
+	color: white;
+	margin-bottom: 5px;
+}
+.sizes{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.sizes span{
+	font-size: 20px;
+	margin-right: 10px;
+}
+.size{
+	border: 1px solid white;
+	margin: 0px 4px;
+    text-align: center;
+	width: 25px;
+}
+.addToCart{
+	font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    transition: 0.3s;
+    width: 100%;
+}
+.addToCart:hover{
+	color: rgb(255, 226, 77);
+}
+.shoesName{
+    font-family: 'Acme', sans-serif;
+	font-size: 22px;
+	color: white;
+	transition: 1s;
+	width: 100%;
+	height: 200px;
+	display: flex;
+	justify-content: center;
 }
 .itemsImg{
 	height: 200px;
+	width: 200px;
+	transition: 1s;
 }
-
-
+.item:hover .itemsImg{
+    transform: rotateZ(-30deg) translateY(-120px) scale3d(1.4, 1.4, 1.4);
+}
+.item:hover .shoesName{
+	display: none;
+}
+.item:hover .shoesInfo{
+	display: block!important;
+}
 
 
 

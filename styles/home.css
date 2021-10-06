@@ -193,6 +193,11 @@ footer {
   margin-top: 15px;
 }
 /*Navigation menu responsive*/
+@media(min-width: 1440px){
+	nav,.footer-top, .footer-bottom{
+		width: 1300px;
+	}
+}
 @media(max-width:1200px){
 	/*Navigation*/
 	body{

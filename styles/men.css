@@ -443,6 +443,12 @@ footer {
 		width: 30px;
 		height: 30px;
 	}
+	/*ITEMS*/
+		.items {
+		flex-direction: column;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
 }
 
 

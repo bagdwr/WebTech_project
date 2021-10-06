@@ -5,6 +5,7 @@ for(let i=0; i<btn.length; i++){
         if (cont.getAttribute('id')=='navUlID') {
         	  if (cont.style.maxHeight) {
                 cont.style.maxHeight=null;
+                
            }else{
              	cont.style.maxHeight=200+'px';
            }

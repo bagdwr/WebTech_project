@@ -15,8 +15,8 @@ body{
 	height: 100px;
 	width: 100%;
 	background-color: rgba(0, 0, 0, .04);
-	backdrop-filter: blur(4px);
-	-webkit-backdrop-filter: blur(4px);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
 }
 .logoImg{
 	width: 80px;
@@ -107,8 +107,8 @@ nav{
     justify-content: center;
 	margin-bottom: 40px;
 	background-color: rgba(0, 0, 0, .04);
-	backdrop-filter: blur(4px);
-	-webkit-backdrop-filter: blur(4px);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
 	padding: 0px 40px;
 	width: 300px;
 	height: 360px;

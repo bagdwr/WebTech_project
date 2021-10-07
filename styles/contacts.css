@@ -1,4 +1,4 @@
-*{
+§*{
 	box-sizing: border-box;
 	padding: 0px;
 	margin: 0px;
@@ -466,6 +466,9 @@ footer {
 		height: 30px;
 	}
 	/*Contacts*/
+	.contactsContainer{
+		margin-top: 120px;
+	}
 	.first{
 		flex-direction: column;
 	}

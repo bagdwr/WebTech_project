@@ -1,91 +1,91 @@
-§*{
-	box-sizing: border-box;
-	padding: 0px;
-	margin: 0px;
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
 }
 body{
-	background: url("../images/neonBackground.jpg") no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
+    background: url("../images/neonBackground.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .menuContainer{
-	position: fixed;
-	top: 0;
-	z-index: 2;
-	height: 100px;
-	width: 100%;
-	background-color: rgba(0, 0, 0, .04);
-	backdrop-filter: blur(5px);
-	-webkit-backdrop-filter: blur(5px);
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .04);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
 .logoImg{
-	width: 80px;
+    width: 80px;
 }
 nav{
-	display: flex;
-	align-items: center;
-	height: 100%;
+    display: flex;
+    align-items: center;
+    height: 100%;
     margin:0px auto;
     width: 90%;
 }
 .navUl{
-	width: 60%;
-	display: flex;
-	justify-content: space-around;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
 }
 .navUl li{
-	list-style: none;
+    list-style: none;
 }
 .bi-list{
-	fill: white;
+    fill: white;
 }
 .burgerMenu{
-	display: none;
+    display: none;
 }
 .navUl li a{
-	transition: 0.3s;
-	font-family: 'Acme', sans-serif;
-	font-size: 20px;
+    transition: 0.3s;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
     text-decoration: none;
     color: white;
 }
 .navUl li:hover{
-	letter-spacing: 1px;
+    letter-spacing: 1px;
 }
 .basket{
-	display: flex;
-	justify-content: center;
-	margin-left: auto;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
 }
 .bi-basket{
     fill: white;
 }
 .totalDiv{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
 }
 .total{
-	font-size: 16px;
-	color: white;
-	padding: 0px;
-	margin: 0px;
+    font-size: 16px;
+    color: white;
+    padding: 0px;
+    margin: 0px;
 }
 .totalPrice{
     font-family: 'Acme', sans-serif;
-	font-size: 18px;
-	color: white;
+    font-size: 18px;
+    color: white;
 }
 .basketTop{
-	display: none;
+    display: none;
 }
 
 /*_______contactsContainer_________*/
 .contactsContainer{
-	width: 100%;
-	margin-top: 200px;
-	margin-bottom: 100px;
+    width: 100%;
+    margin-top: 200px;
+    margin-bottom: 100px;
 }
 .insideContainer{
   width: 90%;
@@ -97,89 +97,89 @@ nav{
   flex-direction: column;
 }
 .contacts3Divs{
-	display: flex;
-	justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 .divCont{
-	background-color: transparent;
-	color: white;
- 	height: 300px;
- 	width: 300px;
- 	box-shadow: 0 0 6px 0 #4a4a4a;
- 	transition: 0.3s;
- 	 background-color: rgba(0, 0, 0, 0.04);
+    background-color: transparent;
+    color: white;
+    height: 350px;
+    width: 300px;
+    box-shadow: 0 0 6px 0 #4a4a4a;
+    transition: 0.3s;
+     background-color: rgba(0, 0, 0, 0.04);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
 }
 .divCont:hover{
-	box-shadow: 0 0 6px 0 #d6d6d1;
+    box-shadow: 0 0 6px 0 #d6d6d1;
 }
 .divCont h2{
-	font-size: 20px;
-	font-weight: 550;
+    font-size: 20px;
+    font-weight: 550;
 }
 .textDiv{
-	font-family: 'Kanit', sans-serif;
-	font-size: 18px;
-	text-align: center;
-	padding: 20px;
-	height: 50%;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+    height: 50%;
 }
 .imgDiv{
-	height: 50%;
- 	width: 100%;
- 	background-size: cover;
+    height: 50%;
+    width: 100%;
+    background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .imgDiv1{
-	background: url("../images/contact1.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
+    background: url("../images/contact1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .imgDiv2{
-	background: url("../images/contact2.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
+    background: url("../images/contact2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .imgDiv3{
-	background: url("../images/contact3.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
+    background: url("../images/contact3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .formDiv{
-	margin-top: 50px;
+    margin-top: 50px;
 }
 .formDiv form{
-	display: flex;
-	flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 .first{
-	display: flex;
-	justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
-.first input{
+.block1{
   width: 30%;
 }
 .first input{
-	border: 1px solid #a9a9a9;
-	font-family: 'Open Sans';
-	font-size: 14px;
-	padding: 13px 20px;
-	background-color: rgba(0, 0, 0, 0.04);
+    border: 1px solid #a9a9a9;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    padding: 13px 20px;
+    background-color: rgba(0, 0, 0, 0.04);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   color: white;
   font-size: 16px;
 }
 #Second{
-	height: 190px;
-	border: 1px solid #a9a9a9;
-	margin-top: 30px;
-	resize: none;
-	background-color: rgba(0, 0, 0, 0.04);
+    height: 190px;
+    border: 1px solid #a9a9a9;
+    margin-top: 30px;
+    resize: none;
+    background-color: rgba(0, 0, 0, 0.04);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   color: white;
@@ -198,8 +198,9 @@ padding-top: 20px;
 padding-bottom: 20px;
 }
 .mapDiv{
-	margin-top: 100px;
+    margin-top: 100px;
 }
+
 /*_________FOOTER_________*/
 
 footer {
@@ -310,172 +311,173 @@ footer {
 }
 /*Navigation menu responsive*/
 @media(min-width: 1440px){
-	nav, .h1Container, .items,.footer-top, .footer-bottom{
-		width: 1300px;
-	}
+    nav, .h1Container, .items,.footer-top, .footer-bottom{
+        width: 1300px;
+    }
 }
 @media(max-width:1200px){
-	/*Navigation*/
-	body{
-		background: url("../images/neonBackground_1024.png") no-repeat;
-		background-size: cover;
-		background-attachment: fixed;
-	}
-	/*Contancts*/
-	.divCont{
-		width: 250px;
-	}
-	.textDiv{
-		padding: 10px;
-	}
+    /*Navigation*/
+    body{
+        background: url("../images/neonBackground_1024.png") no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    /*Contancts*/
+    .divCont{
+        width: 250px;
+    }
+    .textDiv{
+        padding: 10px;
+    }
 }
 @media(max-width: 900px){
-	/*Navigation*/
-	body{
-		background: url("../images/neonBackground_tablet.png") no-repeat;
-		background-size: cover;
-		background-attachment: fixed;
-	}
-	.logoImg {
-		width: 60px;
-	}
-	.navUl li a {
-		font-size: 18px;
-	}
-	.basket svg{
-		width: 30px;
-		height: 30px;
-	}
-	.totalPrice {
-		font-size: 17px;
-	}
-	.menuContainer{
-		height: 70px;
-	}
-	/*Footer*/
-	.footer-nav ul li a {
-		font-size: 18px;
-	}
-	.footer-info h4 {
-		font-size: 20px;
-	}
-	.footer-info p {
-		font-size: 16px;
-	}
-	.subscription h4 {
-		font-size: 18px;
-	}
-	.email_input {
-		padding: 5px;
-		font-size: 14px;
-	}
-	.btn-input {
-		width: 20px;
-		height: 20px;
-	}
-	.subscription {
-		margin-top: 25px;
-	}
-	/*Contacts*/
-	.contacts3Divs{
-		flex-direction: column;
-		align-items: center;
-	}
-	.divCont{
-		width: 350px;
-		height: 400px;
-		margin-bottom: 30px;
-	}
-	.textDiv{
-		padding: 20px;
-	}
+    /*Navigation*/
+    body{
+        background: url("../images/neonBackground_tablet.png") no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .logoImg {
+        width: 60px;
+    }
+    .navUl li a {
+        font-size: 18px;
+    }
+    .basket svg{
+        width: 30px;
+        height: 30px;
+    }
+    .totalPrice {
+        font-size: 17px;
+    }
+    .menuContainer{
+        height: 70px;
+    }
+    /*Footer*/
+    .footer-nav ul li a {
+        font-size: 18px;
+    }
+    .footer-info h4 {
+        font-size: 20px;
+    }
+    .footer-info p {
+        font-size: 16px;
+    }
+    .subscription h4 {
+        font-size: 18px;
+    }
+    .email_input {
+        padding: 5px;
+        font-size: 14px;
+    }
+    .btn-input {
+        width: 20px;
+        height: 20px;
+    }
+    .subscription {
+        margin-top: 25px;
+    }
+    /*Contacts*/
+    .contacts3Divs{
+        flex-direction: column;
+        align-items: center;
+    }
+    .divCont{
+        width: 350px;
+        height: 400px;
+        margin-bottom: 30px;
+    }
+    .textDiv{
+        padding: 20px;
+    }
 }
 @media(max-width: 700px){
-	/*Navigation*/
-	body{
-		background: url("../images/neonBackground_mobile.png") no-repeat;
-		background-size: cover;
-		background-attachment: fixed;
-	}
-	.logoImg {
-		width: 80px;
-	}
-	.menuContainer{
-		height: auto;
-	}
-	.burgerMenu svg{
-		width: 40px;
-		height: 40px;
-	}
-	.menuContainer nav{
-		flex-direction: column;
-	}
-	.burgerMenu{
-		display: block;
-	}
-	.navUl{
-		max-height: 0px;
-		overflow-y: hidden;
-		transition: max-height 0.7s ease-out;
-		flex-direction: column;
-		text-align: center;
-	}
-	.navUl li{
-		margin-bottom: 10px;
-		letter-spacing: 2px;
-	}
-	.navUl li:hover{
-		letter-spacing: 3px;
-	}
-	.basket{
-		display: none;
-		margin: 0px;
-		margin-bottom: 10px;
-	}
-	.basketTop{
-		display: flex;
-	}
-	.topMenu{
-		display: flex;
-		width: 100%;
-		justify-content: space-between;
-		align-items: center;
-	}
+    /*Navigation*/
+    body{
+        background: url("../images/neonBackground_mobile.png") no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .logoImg {
+        width: 80px;
+    }
+    .menuContainer{
+        height: auto;
+    }
+    .burgerMenu svg{
+        width: 40px;
+        height: 40px;
+    }
+    .menuContainer nav{
+        flex-direction: column;
+    }
+    .burgerMenu{
+        display: block;
+    }
+    .navUl{
+        max-height: 0px;
+        overflow-y: hidden;
+        transition: max-height 0.7s ease-out;
+        flex-direction: column;
+        text-align: center;
+    }
+    .navUl li{
+        margin-bottom: 10px;
+        letter-spacing: 2px;
+    }
+    .navUl li:hover{
+        letter-spacing: 3px;
+    }
+    .basket{
+        display: none;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+    .basketTop{
+        display: flex;
+    }
+    .topMenu{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
     /*Footer*/
     .footer-top{
-    	flex-direction: column;
+        flex-direction: column;
     }
-	.footer-nav{
+    .footer-nav{
         display: none;
-	}
-	.footer-info,.footer-links{
-		width: 100%;
-	}
-	.socialNetworks{
-		margin-top: 15px;
-	}
-	.subscription {
-		margin-top: 15px;
-	}
-	.email_input {
-		padding: 10px;
-		font-size: 18px;
-	}	
-	.btn-input {
-		width: 30px;
-		height: 30px;
-	}
-	/*Contacts*/
-	.contactsContainer{
-		margin-top: 120px;
-	}
-	.first{
-		flex-direction: column;
-	}
-	#block1{
-		width: 100%;
-		margin-bottom: 30px;
-	}
+    }
+    .footer-info,.footer-links{
+        width: 100%;
+    }
+    .socialNetworks{
+        margin-top: 15px;
+    }
+    .subscription {
+        margin-top: 15px;
+    }
+    .email_input {
+        padding: 10px;
+        font-size: 18px;
+    }   
+    .btn-input {
+        width: 30px;
+        height: 30px;
+    }
+    /*Contacts*/
+    .contactsContainer{
+        margin-top: 120px;
+    }
+    .first{
+        flex-direction: column;
+        width: 100%;
+    }
+    .block1{
+        width: 100%;
+        margin-bottom: 30px;
+    }
 }
 
 

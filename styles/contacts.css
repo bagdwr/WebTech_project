@@ -226,7 +226,7 @@ nav {
     background-color: rgb(255, 226, 77);
     color: white;
     margin-top: 30px;
-    font-family: 'Open Sans';
+    font-family: 'DM Sans', sans-serif;
     font-size: 16px;
     letter-spacing: 2px;
     font-weight: 600;
@@ -269,6 +269,7 @@ footer {
 
 .footer-info h4 {
     font-size: 24px;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .footer-info p {
@@ -297,6 +298,7 @@ footer {
     transition: 0.3s;
     color: #f0f0f0;
     font-size: 20px;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .footer-nav ul li a:hover {
@@ -322,11 +324,13 @@ footer {
 .subscription h4 {
     color: #f0f0f0;
     font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .subscription form {
     margin-top: 15px;
     display: flex;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .email_input {

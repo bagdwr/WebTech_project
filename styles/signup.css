@@ -101,15 +101,19 @@ nav{
 	margin: 0px auto;
 }
 .formClass input{
-	background: transparent;
+	background-color: rgba(33, 16, 9, 0.9);
 	border: 2px solid white;
 	border-radius: 7px;
 	padding: 5px 20px;
 	font-size: 16px;
-	color: #ffffff;
+	color: white;
 	margin-bottom: 30px;
+	transition: 0.3s;
 }
-
+.formClass input:hover{
+	border-color: #f5c800;
+	box-shadow: 0 0px 8px 1px #f5cd15;
+}
 .formClass input::placeholder{
 	color: #ffffff;
 }
@@ -157,6 +161,7 @@ footer {
 
 .footer-info h4 {
   font-size: 24px;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .footer-info p {
@@ -185,6 +190,7 @@ footer {
   transition: 0.3s;
   color: #f0f0f0;
   font-size: 20px;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .footer-nav ul li a:hover {
@@ -210,11 +216,13 @@ footer {
 .subscription h4 {
   color: #f0f0f0;
   font-size: 18px;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .subscription form {
   margin-top: 15px;
   display: flex;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .email_input {

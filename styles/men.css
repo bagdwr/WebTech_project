@@ -222,6 +222,7 @@ footer {
 
 .footer-info h4 {
   font-size: 24px;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .footer-info p {
@@ -250,6 +251,7 @@ footer {
   transition: 0.3s;
   color: #f0f0f0;
   font-size: 20px;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .footer-nav ul li a:hover {
@@ -275,11 +277,13 @@ footer {
 .subscription h4 {
   color: #f0f0f0;
   font-size: 18px;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .subscription form {
   margin-top: 15px;
   display: flex;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .email_input {

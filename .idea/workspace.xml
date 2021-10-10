@@ -4,15 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de104ed7-9860-40ea-9465-366545bd2f3b" name="Changes" comment="home page">
-      <change beforePath="$PROJECT_DIR$/styles/contacts.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/contacts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/signup.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/signup.css" afterDir="false" />
+    <list default="true" id="de104ed7-9860-40ea-9465-366545bd2f3b" name="Changes" comment="placeholder change">
+      <change afterPath="$PROJECT_DIR$/bootstrap_project/htmls_boot/men_boot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap_project/htmls_boot/index_boot.html" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap_project/htmls_boot/index_boot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap_project/styles_boot/home_boot.css" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap_project/styles_boot/home_boot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/home.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="main" />
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -38,10 +50,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -57,12 +70,17 @@
       <recent name="C:\Users\temir\WebstormProjects\WebTech_project\images" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index_boot.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/WebTech_project/bootstrap_project/htmls_boot/index_boot.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebTech_project/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.index_boot.html" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -77,7 +95,9 @@
       <updated>1633539816025</updated>
       <workItem from="1633539818499" duration="9346000" />
       <workItem from="1633593947374" duration="143000" />
-      <workItem from="1633594110454" duration="1716000" />
+      <workItem from="1633594110454" duration="6089000" />
+      <workItem from="1633676110951" duration="4890000" />
+      <workItem from="1633853385443" duration="10117000" />
     </task>
     <task id="LOCAL-00001" summary="home page">
       <created>1633550487537</created>
@@ -86,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633550487537</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="placeholder change">
+      <created>1633596034625</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1633596034625</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +145,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="home page" />
-    <option name="LAST_COMMIT_MESSAGE" value="home page" />
+    <MESSAGE value="placeholder change" />
+    <option name="LAST_COMMIT_MESSAGE" value="placeholder change" />
   </component>
 </project>

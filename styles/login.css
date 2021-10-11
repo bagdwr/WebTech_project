@@ -126,6 +126,7 @@ nav {
     padding: 5px 20px;
     font-size: 16px;
     color: white;
+    transition: 0.3s;
 }
 .formClass input:hover{
     border-color: #f5c800;

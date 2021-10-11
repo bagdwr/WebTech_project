@@ -88,16 +88,17 @@ body {
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     background: rgba(0, 0, 0, 0.04);
+    margin-top: 100px;
+    padding: 100px;
     border: none;
 }
 
-.banner {
-    margin: 100px auto 50px auto;
+.banner-row {
     width: 90%;
-    display: flex;
-    padding: 100px 0;
 }
-
+.banner-col{
+    flex-direction: row;
+}
 .banner-image {
     width: 650px;
     height: 400px;
@@ -149,8 +150,9 @@ body {
 
 .collection-container {
     display: flex;
+    justify-content: space-between;
     width: 90%;
-    margin: 0 auto;
+    margin-bottom: 100px;
 }
 
 .collection {
@@ -163,13 +165,10 @@ body {
     border-radius: 90px;
 }
 
-.collection-container {
+.collectionContainerRow {
     display: flex;
+    flex-direction: row;
     width: 90%;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 100px;
-    justify-content: space-between;
 }
 
 .collection-container img {
@@ -376,9 +375,8 @@ footer .row {
         display: none;
     }
 
-  
-    .banner {
-        margin-top: 70px;
+     /*_____Banner_____*/
+    .banner-col{
         flex-direction: column;
         align-items: center;
     }

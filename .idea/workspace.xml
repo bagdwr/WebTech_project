@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de104ed7-9860-40ea-9465-366545bd2f3b" name="Changes" comment="placeholder change">
-      <change afterPath="$PROJECT_DIR$/bootstrap_project/htmls_boot/men_boot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap_project/htmls_boot/login_boot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap_project/htmls_boot/signup_boot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap_project/styles_boot/login_boot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap_project/styles_boot/signup_boot.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap_project/htmls_boot/index_boot.html" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap_project/htmls_boot/index_boot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap_project/styles_boot/home_boot.css" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap_project/styles_boot/home_boot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmls/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmls/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/login.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -54,7 +58,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bootstrap_project/styles_boot" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -64,22 +69,35 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\temir\WebstormProjects\WebTech_project\bootstrap_project\styles_boot" />
+      <recent name="C:\Users\temir\WebstormProjects\WebTech_project\bootstrap_project\htmls_boot" />
       <recent name="C:\Users\temir\WebstormProjects\WebTech_project\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\temir\WebstormProjects\WebTech_project\images" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.signup_boot.html">
     <configuration name="index_boot.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/WebTech_project/bootstrap_project/htmls_boot/index_boot.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebTech_project/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="login_boot.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebTech_project/bootstrap_project/htmls_boot/login_boot.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebTech_project/htmls/login.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="signup_boot.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebTech_project/bootstrap_project/htmls_boot/signup_boot.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.signup_boot.html" />
+        <item itemvalue="JavaScript Debug.login.html" />
+        <item itemvalue="JavaScript Debug.login_boot.html" />
         <item itemvalue="JavaScript Debug.index_boot.html" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
@@ -98,6 +116,7 @@
       <workItem from="1633594110454" duration="6089000" />
       <workItem from="1633676110951" duration="4890000" />
       <workItem from="1633853385443" duration="10117000" />
+      <workItem from="1633935546301" duration="7581000" />
     </task>
     <task id="LOCAL-00001" summary="home page">
       <created>1633550487537</created>

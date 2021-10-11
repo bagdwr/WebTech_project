@@ -293,7 +293,7 @@ footer {
 }
 /*Navigation menu responsive*/
 @media(min-width: 1440px){
-	nav,.footer-top, .footer-bottom{
+	nav,.footer-top, .footer-bottom,.banner,.collection-container,.collection-title{
 		width: 1300px;
 	}
 }

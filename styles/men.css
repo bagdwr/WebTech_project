@@ -312,7 +312,7 @@ footer {
 }
 /*Navigation menu responsive*/
 @media(min-width: 1440px){
-	nav, .h1Container, .items,.footer-top, .footer-bottom{
+	nav,.collectionContainerTitleRow,.collectionContainerRow, .items,.footer-top, .footer-bottom{
 		width: 1300px;
 	}
 }

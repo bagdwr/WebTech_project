@@ -27,6 +27,9 @@ body {
 .logoImg{
 	width: 80px;
 }
+.nav{
+    padding: 0px;
+}
 .navUl{
 	width: 60%;
 	justify-content: space-around;

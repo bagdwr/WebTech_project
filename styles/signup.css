@@ -344,6 +344,7 @@ footer {
 		transition: max-height 0.7s ease-out;
 		flex-direction: column;
 		text-align: center;
+		padding: 0px;
 	}
 	.navUl li{
 		margin-bottom: 10px;

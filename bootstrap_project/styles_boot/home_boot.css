@@ -20,30 +20,28 @@ body {
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
 }
-
-/*.logoImg{
-	width: 80px;
-}
-nav{
-	display: flex;
-	align-items: center;
-	height: 100%;
-    margin:0px auto;
+.menuRow{
+    height: 100%;
     width: 90%;
+}
+.logoImg{
+	width: 80px;
 }
 .navUl{
 	width: 60%;
-	display: flex;
 	justify-content: space-around;
-}
-.navUl li{
-	list-style: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
 }
 .bi-list{
 	fill: white;
 }
 .burgerMenu{
 	display: none;
+}
+.basketTop{
+    display: none;
 }
 .navUl li a{
 	transition: 0.3s;
@@ -184,7 +182,7 @@ nav{
     transform: scale3d(1.1, 1.1, 1.1);
 }
 
-/*region footer*/
+/*FOOTER*/
 
 footer {
     background-color: rgba(0, 0, 0, 0.04);
@@ -222,10 +220,6 @@ footer .row {
     color: #f0f0f0;
 }
 
-
-/*endregion*/
-
-
 /*Navigation menu responsive*/
 @media (min-width: 1440px) {
     nav, .footer-top, .footer-bottom {
@@ -241,7 +235,7 @@ footer .row {
         background-attachment: fixed;
     }
 
-    /*Banner*/
+   /* Banner*/
     .banner-image {
         width: 350px;
         height: 200px;
@@ -270,8 +264,10 @@ footer .row {
     }
 }
 
+
+
 @media (max-width: 900px) {
-    /*Navigation*/
+/*    Navigation*/
     body {
         background: url("../../images/neonBackground_tablet.png") no-repeat;
         background-size: cover;
@@ -299,7 +295,7 @@ footer .row {
         height: 70px;
     }
 
-    /*Footer*/
+   /* Footer*/
 
     input[type=email] {
         font-size: 14px;
@@ -307,7 +303,7 @@ footer .row {
 }
 
 @media (max-width: 700px) {
-    /*Navigation*/
+    Navigation
     body {
         background: url("../../images/neonBackground_mobile.png") no-repeat;
         background-size: cover;
@@ -326,11 +322,9 @@ footer .row {
         width: 40px;
         height: 40px;
     }
-
-    .menuContainer nav {
+    .nav {
         flex-direction: column;
     }
-
     .burgerMenu {
         display: block;
     }
@@ -341,6 +335,7 @@ footer .row {
         transition: max-height 0.7s ease-out;
         flex-direction: column;
         text-align: center;
+        padding: 0px;
     }
 
     .navUl li {
@@ -353,7 +348,7 @@ footer .row {
     }
 
     .basket {
-        display: none;
+        display: none!important;
         margin: 0px;
         margin-bottom: 10px;
     }
@@ -369,25 +364,24 @@ footer .row {
         align-items: center;
     }
 
-    /*Footer*/
+   /* Footer*/
     footer .row {
         color: #c5c5c5;
         flex-direction: column;
     }
 
-    footer
+   /* footer*/
 
     #footer-nav {
         display: none;
     }
 
-    /*Banner*/
+  
     .banner {
         margin-top: 70px;
         flex-direction: column;
         align-items: center;
     }
-
     .banner-button {
         width: 100%;
     }

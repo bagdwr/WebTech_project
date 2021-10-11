@@ -362,7 +362,7 @@ footer {
 
 /*Navigation menu responsive*/
 @media (min-width: 1440px) {
-    nav, .h1Container, .items, .footer-top, .footer-bottom {
+    nav, .h1Container, .items, .footer-top, .footer-bottom,.insideContainer {
         width: 1300px;
     }
 }

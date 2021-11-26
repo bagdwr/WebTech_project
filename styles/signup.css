@@ -130,7 +130,16 @@ nav{
 	padding: 4px 20px;
 	transition: 0.3s;
 }
-.formDiv a:hover{
+.formDiv button{
+	text-decoration: none;
+	color: white;
+	background-color: transparent;
+	border: 2px solid white;
+	border-radius: 7px;
+	padding: 4px 20px;
+	transition: 0.3s;
+}
+.formDiv button:hover{
 	background-color: rgb(144, 140, 133);
 	color: black;
 }

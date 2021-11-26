@@ -154,11 +154,20 @@ nav {
     padding: 4px 20px;
     transition: 0.3s;
 }
+.formDiv button{
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 7px;
+    padding: 4px 20px;
+    transition: 0.3s;
+}
 .formDiv a:last-child{
     background-color: #f5c800;
 }
 
-.formDiv a:first-child:hover {
+.formDiv button:first-child:hover {
     background-color: rgb(144, 140, 133);
     color: black;
 }
